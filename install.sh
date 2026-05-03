@@ -2,7 +2,7 @@
 set -eux
 
 echo "step 1/10: setting ownership of the primary Debian user"
-sudo chown -R debian13:debian13 /home/debian13
+sudo chown -R debian:debian /home/debian
 
 echo "step 2/10: installing required dependencies"
 sudo apt-get update

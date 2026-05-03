@@ -33,10 +33,10 @@ source "vmware-iso" "debian13" {
 
   http_directory        = "http"
 
-  iso_urls              = ["https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-13.2.0-amd64-netinst.iso"]
-  iso_checksum          = "sha256:677c4d57aa034dc192b5191870141057574c1b05df2b9569c0ee08aa4e32125d"
+  iso_urls              = ["https://cdimage.debian.org/debian-cd/current/amd64/iso-cd/debian-13.4.0-amd64-netinst.iso"]
+  iso_checksum          = "sha256:0b813535dd76f2ea96eff908c65e8521512c92a0631fd41c95756ffd7d4896dc"
 
-  ssh_username          = "debian13"
+  ssh_username          = "debian"
   ssh_password          = "ilovecoconutwater"
   ssh_port              = 22
   ssh_wait_timeout      = "10000s"
