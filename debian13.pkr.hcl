@@ -23,6 +23,8 @@ source "vmware-iso" "debian13" {
 
   boot_wait             = "10s"
 
+  network_adapter_type  = "vmxnet3"
+
   disk_type_id          = "0"
   disk_size             = 10240
   cpus                  = 4
